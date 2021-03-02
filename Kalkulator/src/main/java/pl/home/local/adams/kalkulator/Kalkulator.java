@@ -114,7 +114,7 @@ public class Kalkulator extends javax.swing.JFrame {
         //Narzędzie pozwalające na zamianę wprowadzonego tekstu na datę
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd MM yyyy");   
         String data = JOptionPane.showInputDialog("Wprowadź datę w formacie dd mm yyyy np: 01 02 2021");
-//        System.out.println(data);zz
+//        System.out.println(data);zzzz
         LocalDate ldnow = LocalDate.now(); 
         LocalDate ldinput = LocalDate.parse(data, formatter); //zrobienie LocalDate z tekstu dzięki formatter
 //        System.out.println(ldnow+"   "+ldinput);
