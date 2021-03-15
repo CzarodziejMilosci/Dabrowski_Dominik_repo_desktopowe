@@ -216,7 +216,7 @@ public class ListaZakupow extends javax.swing.JFrame {
         }
         //</editor-fold>
 
-        /* Create and display the form */
+        /* Crreate and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new ListaZakupow().setVisible(true);
